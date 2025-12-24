@@ -17,7 +17,7 @@ test('Get Call',async({request})=>{
     const foolValue = responseBody.args.fool
 
     expect(foolValue).toEqual("bar1")
-
+    console.log("Mamidi");
     
 
 
