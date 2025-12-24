@@ -1,0 +1,11 @@
+{
+  args: { foo1: 'bar1', foo2: 'bar2' },
+  headers: {
+    host: 'postman-echo.com',
+    'accept-encoding': 'gzip, br',
+    accept: 'application/json',
+    'x-forwarded-proto': 'https',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+  },
+  url: 'https://postman-echo.com/get?foo1=bar1&foo2=bar2'
+}
